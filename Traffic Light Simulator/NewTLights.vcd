@@ -1,0 +1,353 @@
+$date
+	Wed May  9 01:26:49 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_TLC $end
+$var wire 1 ! Yb $end
+$var wire 1 " Ya $end
+$var wire 1 # Tb $end
+$var wire 1 $ Ta $end
+$var wire 1 % Rb $end
+$var wire 1 & Ra $end
+$var wire 1 ' Gb $end
+$var wire 1 ( Ga $end
+$var reg 1 ) clk $end
+$var reg 1 * rst $end
+$scope module dut $end
+$var wire 1 ) clk $end
+$var wire 1 * rst $end
+$var wire 1 + Tb $end
+$var wire 1 , Ta $end
+$var reg 1 ( Ga $end
+$var reg 1 ' Gb $end
+$var reg 1 & Ra $end
+$var reg 1 % Rb $end
+$var reg 1 " Ya $end
+$var reg 1 ! Yb $end
+$var reg 2 - nextstate [1:0] $end
+$var reg 2 . state [1:0] $end
+$scope module traffic_sensora $end
+$var wire 1 ) clkA $end
+$var wire 1 * resetA $end
+$var reg 5 / FollowA [4:0] $end
+$var reg 5 0 LFSRA [4:0] $end
+$var reg 1 , Ta $end
+$var reg 1 1 fdbckA $end
+$upscope $end
+$scope module traffic_sensorb $end
+$var wire 1 ) clkB $end
+$var wire 1 * resetB $end
+$var reg 5 2 FollowB [4:0] $end
+$var reg 5 3 LFSRB [4:0] $end
+$var reg 1 + Tb $end
+$var reg 1 4 fdbckB $end
+$upscope $end
+$upscope $end
+$scope module utu $end
+$var wire 1 ) clkB $end
+$var wire 1 * resetB $end
+$var reg 5 5 FollowB [4:0] $end
+$var reg 5 6 LFSRB [4:0] $end
+$var reg 1 # Tb $end
+$var reg 1 7 fdbckB $end
+$upscope $end
+$scope module uut $end
+$var wire 1 ) clkA $end
+$var wire 1 * resetA $end
+$var reg 5 8 FollowA [4:0] $end
+$var reg 5 9 LFSRA [4:0] $end
+$var reg 1 $ Ta $end
+$var reg 1 : fdbckA $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0:
+b11110 9
+b11100 8
+17
+b11011 6
+b11101 5
+04
+b11010 3
+b1101 2
+01
+b10110 0
+b1100 /
+b0 .
+b1 -
+0,
+1+
+1*
+0)
+1(
+0'
+0&
+1%
+0$
+1#
+0"
+0!
+$end
+#5000
+b0 -
+b11000 8
+b11110 5
+1,
+b11001 /
+11
+b10110 2
+14
+0+
+b11100 9
+b11101 6
+b1100 0
+b1101 3
+0*
+#10000
+b1 -
+b11011 2
+1+
+0,
+b10011 /
+b1111 5
+07
+b10001 8
+1:
+b10110 3
+b11001 0
+b11110 6
+b11000 9
+1)
+#15000
+b11 8
+b10111 5
+17
+0#
+b111 /
+b11101 2
+b10001 9
+b1111 6
+b10011 0
+b11011 3
+0)
+#20000
+b10 -
+b11110 2
+1,
+b1111 /
+b11011 5
+1#
+b110 8
+0:
+1"
+0(
+b11101 3
+b111 0
+b10111 6
+b11 9
+b1 .
+1)
+#25000
+1$
+b1101 8
+1:
+b11101 5
+b11111 /
+b1111 2
+04
+b110 9
+b11011 6
+b1111 0
+b11110 3
+0)
+#30000
+b11 -
+b10111 2
+14
+0+
+0,
+b11110 /
+01
+b11110 5
+b11011 8
+0"
+0%
+1&
+1'
+b1111 3
+b11111 0
+b11101 6
+b1101 9
+b10 .
+1)
+#35000
+b10 -
+0$
+b10111 8
+b1111 5
+07
+b11100 /
+b11011 2
+1+
+b11011 9
+b11110 6
+b11110 0
+b10111 3
+0)
+#40000
+b11101 2
+b11000 /
+b10111 5
+17
+0#
+b1110 8
+0:
+b11011 3
+b11100 0
+b1111 6
+b10111 9
+1)
+#45000
+1$
+b11101 8
+1:
+b11011 5
+1#
+b10001 /
+11
+b11110 2
+b1110 9
+b10111 6
+b11000 0
+b11101 3
+0)
+#50000
+b1111 2
+04
+b11 /
+b11101 5
+0$
+b11010 8
+0:
+b11110 3
+b10001 0
+b11011 6
+b11101 9
+1)
+#55000
+b11 -
+b10101 8
+1:
+b11110 5
+b110 /
+01
+b10111 2
+14
+0+
+b11010 9
+b11101 6
+b11 0
+b1111 3
+0)
+#60000
+b0 -
+b11011 2
+1+
+1,
+b1101 /
+11
+b1111 5
+07
+b1010 8
+0:
+1!
+1%
+0&
+0'
+b10111 3
+b110 0
+b11110 6
+b10101 9
+b11 .
+1)
+#65000
+b10100 8
+b10111 5
+17
+0#
+b11011 /
+b11101 2
+b1010 9
+b1111 6
+b1101 0
+b11011 3
+0)
+#70000
+b1 -
+b11110 2
+0,
+b10111 /
+b11011 5
+1#
+b1000 8
+0!
+1(
+b11101 3
+b11011 0
+b10111 6
+b10100 9
+b0 .
+1)
+#75000
+b10000 8
+b11101 5
+b1110 /
+01
+b1111 2
+04
+b1000 9
+b11011 6
+b10111 0
+b11110 3
+0)
+#80000
+b10 -
+b10111 2
+14
+0+
+1,
+b11101 /
+11
+b11110 5
+b1 8
+1:
+1"
+0(
+b1111 3
+b1110 0
+b11101 6
+b10000 9
+b1 .
+1)
+#85000
+b10 8
+0:
+b1111 5
+07
+0,
+b11010 /
+01
+b11011 2
+1+
+b1 9
+b11110 6
+b11101 0
+b10111 3
+0)

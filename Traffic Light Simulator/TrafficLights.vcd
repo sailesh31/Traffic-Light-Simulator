@@ -1,0 +1,74 @@
+$date
+	Wed May  9 01:28:16 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_TLC0 $end
+$var wire 1 ! Yb $end
+$var wire 1 " Ya $end
+$var wire 1 # Rb $end
+$var wire 1 $ Ra $end
+$var wire 1 % Gb $end
+$var wire 1 & Ga $end
+$var reg 1 ' Ta $end
+$var reg 1 ( Tb $end
+$var reg 1 ) clk $end
+$var reg 1 * rst $end
+$scope module dut $end
+$var wire 1 ' Ta $end
+$var wire 1 ( Tb $end
+$var wire 1 ) clk $end
+$var wire 1 * rst $end
+$var wire 1 ! Yb $end
+$var wire 1 " Ya $end
+$var wire 1 # Rb $end
+$var wire 1 $ Ra $end
+$var wire 1 % Gb $end
+$var wire 1 & Ga $end
+$var reg 2 + nextstate [1:0] $end
+$var reg 2 , state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+bx +
+0*
+0)
+0(
+0'
+1&
+0%
+0$
+1#
+0"
+0!
+$end
+#100
+0&
+1"
+b1 ,
+b1 +
+1)
+#200
+0)
+#300
+0"
+1%
+b10 ,
+b10 +
+1)
+1(
+1'
+#400
+0)
+0(
+#500
+1)
+#600
+0)
